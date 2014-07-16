@@ -2,6 +2,8 @@
 # Challenge 165E: ASCII Game of Life   #
 #           Date: June 13, 2014        #
 ########################################
+# Experimental Branch
+##
 import random
 
 gridsize = input(">")
@@ -17,7 +19,7 @@ class Cell(object):
                             (x-1,y+1),(x,y+1),(x+1,y+1)]
     def update(self, grid):
         for i in range(8):
-            pass
+            pass 
 
 def initGrid(gridsize, grid):
     x = 0
