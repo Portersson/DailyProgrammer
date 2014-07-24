@@ -2,9 +2,9 @@
 # Challenge 163I: Fallout Hacking Game #
 #           Date: July 9, 2014         #
 ########################################
-import random,sys
+import random,sys,os
 
-dict = open('enable1.txt', encoding ='utf-8')
+dict = open(os.path.join(os.path.dirname(__file__), 'Resources\enable1.txt'), encoding ='utf-8')
 print("Opening",dict.name+"...","\n")
 strDict = dict.read()
 dict.close()

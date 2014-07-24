@@ -2,6 +2,8 @@
 # Challenge 166bI: Prime Factor Trees  #
 #           Date: July 21, 2014        #
 ########################################
+#Unfinished
+##
 def factor(num):
     #i = int(num/2)+1
     i=0
@@ -29,27 +31,4 @@ def tree(num):
     
     return resolvedFactors
     
-    
-print(factor(1767150))
 print(tree(1767150))
-
-
-
-
-
-
-
-""""
-60
-+--30
-|  |
-|  +--15
-|  |  |
-|  |  +--5
-|  |  |
-|  |  |--3
-|  |
-|  +--2
-|
-+--2
-"""
